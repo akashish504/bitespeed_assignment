@@ -60,7 +60,7 @@ const checkUser =  async (req, res) => {
             }
           }
 
-          return res.status(200).send({"data": data});
+          return res.status(200).send({"data": "Sucessfully updated the data"});
         }
       })
     }
