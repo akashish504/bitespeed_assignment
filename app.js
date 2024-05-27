@@ -70,7 +70,7 @@ const checkUser =  async (req, res) => {
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
-app.post('/', checkUser);
+app.post('/identify', checkUser);
 
 // app.use('/', routes);
 // celebrate errors
